@@ -1,0 +1,19 @@
+name: fwfh_svg
+version: 0.7.2
+description: WidgetFactory extension to render SVG with flutter_svg plugin.
+homepage: https://github.com/daohoangson/flutter_widget_from_html
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.1.4
+  flutter_widget_from_html_core:
+    git:
+      url: https://github.com/vtsindia-dev/flutter_widget_from_html_core.git
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  golden_toolkit: ^0.13.0
+  lint: any
+  mocktail: ^0.3.0
